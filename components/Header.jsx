@@ -32,7 +32,7 @@ export default function Header(props) {
           <li>
     <a
       className="nav-link"
-      href="/resume1.pdf"
+      href="/Tirthesh-Nehete-Resume.pdf"
       download="Tirthesh-Nehete-Resume.pdf"
     >
       Resume
