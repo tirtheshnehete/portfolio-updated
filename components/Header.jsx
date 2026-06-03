@@ -16,13 +16,12 @@ export default function Header(props) {
         />
         <p className="tirthesh-name">Tirthesh Nehete</p>
       </div>
-
-      <button
-        className={`menu-toggle ${isOpen ? "active" : ""}`}
-        onClick={() => setIsOpen(!isOpen)}
-      >
-        ☰
-      </button>
+<button
+  className={`menu-toggle ${isOpen ? "active" : ""}`}
+  onClick={() => setIsOpen(!isOpen)}
+>
+  {isOpen ? "✕" : "☰"}
+</button>
 
       <nav className={isOpen ? "open" : ""}>
         <ul>
