@@ -30,6 +30,15 @@ export default function Header(props) {
           <li><HashLink className="nav-link" to="/#about">About</HashLink></li>
           <li><HashLink className="nav-link" to="/#skills">Skills</HashLink></li>
           <li><HashLink className="nav-link" to="/#projects">Projects</HashLink></li>
+          <li>
+    <a
+      className="nav-link"
+      href="/resume1.pdf"
+      download="Tirthesh-Nehete-Resume.pdf"
+    >
+      Resume
+    </a>
+  </li>
           <li><HashLink className="nav-link" to="https://github.com/tirtheshnehete?tab=repositories">Github</HashLink></li>
         </ul>
       </nav>
